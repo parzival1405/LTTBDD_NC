@@ -1,6 +1,6 @@
 import React from 'react'
 import {ScrollView, StyleSheet, Text, TouchableOpacity, View} from "react-native";
-import Facebook from "../icons/facebook.png";
+
 import Google from "../icons/google.png";
 import TextField from "../components/TextField";
 import CustomButton from "../components/CustomButton";

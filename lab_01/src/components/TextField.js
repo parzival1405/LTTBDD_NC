@@ -8,11 +8,11 @@ const TextField = ({placeholder,style, LeftContent, RightContent} ) => {
             ...style
         }}>
             <View style={styles.leftContent}>
-                {/* {LeftContent ? (<LeftContent />): (<View/>)} */}
+                {LeftContent ? (<LeftContent />): (<View/>)}
             </View>
             <TextInput style={styles.textInput} placeholder={placeholder} placeholderTextColor={'#000000'}/>
             <View style={styles.rightContent}>
-                {/* {RightContent ? (<RightContent />): (<View />)} */}
+                {RightContent ? (<RightContent />): (<View />)}
             </View>
         </View>
     );
